@@ -1,0 +1,50 @@
+/*#logout
+{
+	height: 20px;
+	width: 20px;
+}*/
+
+#welcoming
+{
+	font-size: 30px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#poster
+{
+	width: 320px;
+	height: 450px;
+	margin-top: 20px;
+	border: 2px 2px 2px 2px solid black;
+  	border-radius: 10px;
+  	padding-top: 60px;
+}
+
+#title
+{
+	font-size: 25px;
+	text-decoration: underline;
+	padding-right: : 120px;
+	color: red;
+	font-family: 'Ubuntu', sans-serif;
+	margin-right: 45px;
+}
+
+#add_button
+{
+	margin-top: 30px;
+	margin-left: : 100px;
+	margin-right: 300px;
+}
+
+#list_button
+{
+
+	margin-right: 80px;
+}
+
+#features
+{
+	margin-left: 40px;
+}
+

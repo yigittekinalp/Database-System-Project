@@ -1,0 +1,88 @@
+<?php
+	//Your PHP control cases go here
+?>
+
+
+<!doctype html>
+
+<html lang="en">
+	<! HEAD >
+	<head>
+		<meta charset="utf-8">
+		<title>Site title</title>
+		<meta name="description" content="Bootstrap Recitation">
+		<meta name="author" content="CS306-201802">
+		
+		<!--
+			Bootstrap files
+		-->
+		<link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="login_page.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	</head>
+	<! BODY>
+	<body>
+		<div class="container">
+			<div class = "movie">
+					<div class="row">
+						<div class="col">&nbsp;</div>
+					</div>
+				
+				<div class="row justify-content-md-center">
+				    <div class="col"></div>
+				    <div class="col-md-auto">
+				    	<h2 class = "welcome">Welcome</p>
+						<!-- <br/> -->
+				    </div>
+				    <div class="col"></div>
+				</div>
+				<div class="text-center">
+					<!-- <img src="img/film.png" class="rounded" alt="Film" width="300"> -->
+					<body style='width: 100% ; height:100% ; position: fixed; background-color: black ; color: white;'>
+					</body>
+				</div>
+				<br/>
+				<div class="row">
+					<div class="col">&nbsp;</div>
+				</div>
+				<div class="row justify-content-md-center">	
+					<div class="col-3"></div>
+					<div class="col-6">
+						<form action="login.php" method="POST">
+							<div class="form-group row">
+								<label for="inputText3" class="col-sm-3 col-form-label text-indent">Username:</label>
+								<div class="col-sm-6"><!-- 9 -->
+									<input type="text" class="form-control" id="inputText3" name="username" placeholder="Username">
+						    	</div>
+							</div>
+							<div class="form-group row">
+						    	<label for="inputPassword3" class="col-sm-3 col-form-label text-outdent">Password:</label>
+								<div class="col-sm-6"> <!-- 9 -->
+									<input type="password" class="form-control" id="inputPassword3" name="password" placeholder="Password">
+						    	</div>
+							</div>
+							<div class="custom-control custom-switch">
+							  	<input type="checkbox" class="custom-control-input" id="customSwitch1">
+							  	<label class="custom-control-label" for="customSwitch1">Remember me</label>
+							</div>
+							<br/>
+							<div id = "submit_button" class = "col-sm-7">
+								<input id = "button" type="submit" class="btn btn-primary btn-block btn-lg" value="Sign in" name="log" />
+							</div>
+							<br>
+						</form>
+						
+					</div>
+					<div class="col-3"></div>
+					<a 	style = "color: white;" id = "register" href="signup_page.html">Register Now</a>
+				</div>		
+			</div>
+			
+		</div>
+	</body>
+</html>
